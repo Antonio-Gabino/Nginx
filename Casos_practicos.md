@@ -3,7 +3,7 @@ a)	Comprobamos la versión instalada con el comando.
 
 •	**nginx -v**
 
-
+	![Actualización](Imagenes/7_Instalacion.png)
 
 b)	Verificamos el estado del servicio con el comando.
 •	systemctl status nginx (Verificado anteriormente).
