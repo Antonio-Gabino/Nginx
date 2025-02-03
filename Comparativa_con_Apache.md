@@ -13,3 +13,4 @@
 La elección depende de las necesidades: Apache para compatibilidad y módulos listos para usar, Nginx para alto rendimiento y escalabilidad. 
 ## 2.	Cuotas de mercado.
 
+Estadísticas de uso de servidores web basadas en datos de W3Techs. Durante los últimos 3 años **Nginx** y **Apache** han estado en la cima del mercado de servidores web.
