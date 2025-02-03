@@ -1,4 +1,4 @@
-![apache_nginx](Imagenes/apache_nginx.PNG)
+![apache_nginx](Imagenes/apache_nginx.png)
 # 2.	Comparativa con Apache.
 ## 1.	Características.
 **Apache** y **Nginx** son servidores web de alto rendimiento y código abierto compatibles con Windows y Linux.
