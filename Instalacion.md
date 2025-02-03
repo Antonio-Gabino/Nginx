@@ -3,17 +3,20 @@ Pasos para instalar Nginx en un sistema Linux (Debian 12).
 1.	Actualizamos los repositorios con el comando.
    
     •	**apt update && apt upgrade**
-  	![Actualización](Imagenes/7_Instalacion.PNG)
+  	
+  	![Actualización](Imagenes/7_Instalacion.png)
 
 3.	Instalamos Nginx con el comando.
    
     •	**apt install nginx**
-  	![Instalación de Nginx](Imagenes/8_Instalacion.PNG)
+  	
+  	![Instalación de Nginx](Imagenes/8_Instalacion.png)
 
 5.	Verificamos el estado del servicio con el comando.
    
     •	**systemctl status nginx**
-  	![Estado del servicio](Imagenes/9_Instalacion.PNG)
+  	
+  	![Estado del servicio](Imagenes/9_Instalacion.png)
 
 7.	Permitimos el tráfico HTTP/HTTPS en el firewall con el comando.
       
@@ -24,4 +27,5 @@ Pasos para instalar Nginx en un sistema Linux (Debian 12).
     •	**ufw status verbose** (el servicio estaba desactivado, por lo que lo activamos).
   	
     •	**ufw enable** (activación del servicio ufw).
-![Permiso del tráfico](Imagenes/10_Instalacion.PNG)
+  	
+![Permiso del tráfico](Imagenes/10_Instalacion.png)
