@@ -11,3 +11,4 @@ Comenzamos configurando dos tarjetas de red en una VM Debian 12.
 
 ![ip_servidor](Imagenes/5_ip_servidor.png)
 ## Resumen del esquema de red.
+![Esquema_red](Imagenes/6_esquema_red.png)
