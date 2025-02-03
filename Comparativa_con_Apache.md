@@ -15,3 +15,4 @@ La elección depende de las necesidades: Apache para compatibilidad y módulos l
 ![Cuota de mercado](Imagenes/Cuotas_Mercado.PNG)
 Estadísticas de uso de servidores web basadas en datos de W3Techs. Durante los últimos 3 años **Nginx** y **Apache** han estado en la cima del mercado de servidores web.
 ## 3.	Diferencias clave.
+![Diferencias](Imagenes/Diferencias.PNG)
