@@ -3,5 +3,5 @@
 2. [Comparativa_con_Apache](Comparativa_con_Apache.md)
 3. [Esquema_de_red](Esquema_de_red.md)
 4. [Instalacion](Instalacion.md)
-5. [Casos_practicos](CasosPracticos.md)
+5. [Casos_practicos](Casos_practicos.md)
 6. [Referencias](Referencias.md)
