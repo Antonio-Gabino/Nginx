@@ -62,7 +62,7 @@ Abrimos el navegador Firefox dentro de la VM y escribimos en su barra de direcci
 •	**nano /var/www/web2/index.html**
 
 ````
-Web1
+**Web1**
 <!DOCTYPE html>
 <html>
 <head>
@@ -73,3 +73,20 @@ Web1
 </body>
 </html>
 ````
+````
+**Web2**
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bienvenidos a la página web2</title>
+</head>
+<body>
+    <h1>Bienvenidos a la página web2 de Antonio Tenorio</h1>
+</body>
+</html>
+````
+![Versión](Imagenes/16_Casopractico.png)
+
+![Versión](Imagenes/19_Casopractico.png)
+
+![Versión](Imagenes/20_Casopractico.png)
