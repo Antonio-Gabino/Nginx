@@ -1,3 +1,5 @@
+![Debian-Nginx](Imagenes/debian-nginx.png)
+
 ## 2.4	Instalación.
 Pasos para instalar Nginx en un sistema Linux (Debian 12). 
 1.	Actualizamos los repositorios con el comando.
