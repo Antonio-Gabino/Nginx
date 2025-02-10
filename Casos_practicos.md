@@ -137,8 +137,6 @@ Abrimos el navegador Firefox dentro de la VM y escribimos en su barra de direcci
 
 ![Versión](Imagenes/27_Casopractico.png)
 
-![Versión](Imagenes/28_Casopractico.png)
-
 f)	Autenticación, autorización y control de acceso
 
 -	 Debemos configurar:
@@ -151,10 +149,36 @@ f)	Autenticación, autorización y control de acceso
   
 1.	Editamos el archivo de configuración de Nginx para cada sitio web1 y web2.
    
-o	nano /etc/nginx/sites-available/web1
-o	nano /etc/nginx/sites-available/web1
+o	**nano /etc/nginx/sites-available/web1**
 
+o	**nano /etc/nginx/sites-available/web1**
+
+![Versión](Imagenes/28_Casopractico.png)
 
 ![Versión](Imagenes/29_Casopractico.png)
 
+2.	Probamos la configuración realizada y reiniciamos Nginx.
+   
+o	**nginx -t**
+
+o	**systemctl reload nginx** 
+
+o	**systemctl restart nginx**
+
 ![Versión](Imagenes/30_Casopractico.png)
+
+-	Desde un cliente en la red interna, accedemos a ambos dominios.
+  
+o	**http://www.web1.org**
+
+o	**http://www.web2.org**
+
+-	Desde un cliente Debian 12 también en la red externa, accedemos a web1.
+  
+o	**http:// www.web1.org**
+
+![Versión](Imagenes/31_Casopractico.png)
+
+![Versión](Imagenes/32_Casopractico.png)
+
+![Versión](Imagenes/33_Casopractico.png)
