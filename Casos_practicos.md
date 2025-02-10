@@ -181,5 +181,4 @@ o	**http:// www.web1.org**
 
 ![Versión](Imagenes/32_Casopractico.png)
 
-![Versión](Imagenes/33_Casopractico.png)
 
