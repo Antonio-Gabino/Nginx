@@ -1,8 +1,8 @@
 ## 2.5	Casos prácticos.
 a)	Comprobamos la versión instalada con el comando.
-
+ 
 •	**nginx -v**
-
+ 
 	![Actualización](Imagenes/7_Instalacion.png)
 
 b)	Verificamos el estado del servicio con el comando.
