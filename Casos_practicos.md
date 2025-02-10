@@ -85,8 +85,76 @@ Abrimos el navegador Firefox dentro de la VM y escribimos en su barra de direcci
 </body>
 </html>
 ````
-![Versión](Imagenes/16_Casopractico.png)
+![Versión](Imagenes/18_Casopractico.png)
 
 ![Versión](Imagenes/19_Casopractico.png)
 
+-	Configuramos dos archivos (web1 y web2) de sitio virtual de servidor en Nginx.
+  
+•	**nano /etc/nginx/sites-available/web1**
+
+•	**nano /etc/nginx/sites-available/web2**
+
 ![Versión](Imagenes/20_Casopractico.png)
+
+![Versión](Imagenes/21_Casopractico.png)
+
+![Versión](Imagenes/22_Casopractico.png)
+
+-	Habilitamos los sitios y creamos enlaces simbólicos.
+  
+•	**ln -s /etc/nginx/sites-available/web1 /etc/nginx/sites-enabled/**
+
+•	**ln -s /etc/nginx/sites-available/web2 /etc/nginx/sites-enabled/**
+
+![Versión](Imagenes/23_Casopractico.png)
+
+-	Configuramos el archivo hosts para pruebas locales.
+  
+-	Como no tenemos un DNS configurado, añadimos las entradas en el archivo /etc/hosts.
+  
+•	**nano /etc/hosts**
+
+![Versión](Imagenes/24_Casopractico.png)
+
+-	Comprobamos la configuración de Nginx, verificando que todo esté correcto.
+  
+•	**nginx -t**
+
+![Versión](Imagenes/25_Casopractico.png)
+
+-	Recargamos Nginx y aplicamos los cambios con el comando.
+  
+•	**systemctl reload nginx**
+
+![Versión](Imagenes/26_Casopractico.png)
+
+-	Comprobamos que cada dominio muestre su página de bienvenida de Nginx.
+  
+•	**http://www.web1.org**
+
+•	**http://www.web2.org**
+
+![Versión](Imagenes/27_Casopractico.png)
+
+![Versión](Imagenes/28_Casopractico.png)
+
+f)	Autenticación, autorización y control de acceso
+
+-	 Debemos configurar:
+  
+•	www.web1.org (sea accesible desde red interna y externa).
+
+•	www.web2.org (sea accesible desde red interna).
+
+-	Configuración de acceso.
+  
+1.	Editamos el archivo de configuración de Nginx para cada sitio web1 y web2.
+   
+o	nano /etc/nginx/sites-available/web1
+o	nano /etc/nginx/sites-available/web1
+
+
+![Versión](Imagenes/29_Casopractico.png)
+
+![Versión](Imagenes/30_Casopractico.png)
